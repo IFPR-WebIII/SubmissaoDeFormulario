@@ -1,12 +1,7 @@
 <%@ page import="java.util.Map" %>
 <%@ page import="br.edu.ifpr.formulario.models.Formulario" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<%
-  Formulario formulario = (Formulario) request.getAttribute("formulario");
 
-  System.out.println(formulario);
-
-%>
 <!DOCTYPE html>
 <html>
 <head>
