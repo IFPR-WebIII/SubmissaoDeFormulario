@@ -78,7 +78,7 @@ Aqui você pode estar se perguntando, se a arquitetura é MVC, então o parágra
 
 Outro ponto importante é que em uma arquitetura MVC, outras camadas podem ser criadas. Existe até uma variante chamada de MVCRS (Model, View, Controller, Repository, Services) adicionando duas novas camadas, sendo elas Repository e Services, permitindo uma separação ainda maior das responsabilidades e maior entendimento dos recursos.
 
-Na aplicação deste repositório, os dados estão sendo validados em uma camada `Services`:
+Na aplicação deste repositório, os dados estão sendo validados em uma camada chamada `Services`:
 
 ```java
 
